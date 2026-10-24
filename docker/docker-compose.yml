@@ -1,0 +1,7 @@
+services:
+  tossim:
+    build: .
+    volumes:
+      - ../:/work
+    working_dir: /work
+    tty: true
