@@ -8,7 +8,7 @@ import argparse, csv, math, random
 E_ELEC = 50e-9        # J/bit
 E_FS   = 10e-12       # J/bit/m^2
 E_MP   = 0.0013e-9    # J/bit/m^4
-D0     = math.sqrt(E_FS / E_MP)   # ~87.7 m
+D0     = math.sqrt(E_FS / E_MP)   # ~2.77 m with the TP's nJ coefficient
 PKT, CTRL = 4000, 200            # bits (données / contrôle)
 
 def etx(k, d):

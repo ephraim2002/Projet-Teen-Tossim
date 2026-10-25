@@ -3,3 +3,7 @@ __pycache__/
 build/
 *.o
 *.so
+tossim/teen/Topology.h
+tossim/topology_*.txt
+results/tossim_teen_*.log
+results/tossim_teen_*.csv
